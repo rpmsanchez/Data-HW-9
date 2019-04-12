@@ -1,0 +1,239 @@
+
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background-color:grey;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* html *
+{
+   font-family: "Times New Roman", Times, serif !important;
+} */
+
+h1 {
+  font-size: 25px;
+  color: rgb(35, 196, 188);
+  font-weight: bold;
+  padding: 15px;
+  background-color:#fff;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+h2 {
+  font-size: 20px;
+  color: rgb(35, 196, 188);
+  font-weight: bold;
+  padding: 15px;
+  background-color: #fff;
+  border-bottom: 1px solid rgb(204, 204, 204);
+
+}
+
+h3 {
+  font-size: 10px;
+  color: rgb(35, 196, 188);
+  font-weight: bold;
+  padding: 15px;
+  background-color: #fff;
+  text-align: center;
+
+}
+
+main {
+  margin-top: 30px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  background-color: rgb(35, 196, 188);
+  font-weight: bold;
+  border-top-color: rgb(35, 196, 188);
+  border-bottom-color: rgb(35, 196, 188);
+  color: #fff;
+  padding: 20px;
+  height: 50px;
+}
+
+.navbar {
+  min-height: 50px;
+}
+
+
+.container2 {
+  position: absolute;
+  margin: 55px;
+  width: 1024px;
+  /* margin: 0 auto; */
+}
+
+#main-landing {
+  float: left;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+#big-image {
+  float: left;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: -20px;
+}
+
+#figure {
+  position: relative;
+}
+
+#main-landing {
+  width: 100%;
+}
+
+#big-image {
+  width: 350px;
+  height: 300px;
+  margin-right: 15px;
+}
+
+#data-img {
+  width: 400px;
+  height: 400px;
+}
+
+#small-img {
+  width: 100px;
+  height: 100px;
+}
+
+#comp-img {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#vis-img {
+  width: 500px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#vis-text {
+  float: left;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Giving our navbar some padding and a background color */
+/* .navbar {
+  padding: 0px;
+  background: #fff;
+} */
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+/* .navbar li {
+  display: inline;
+  padding: 15px;
+  margin-right: 0;
+  margin-left: 0;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 0px;
+} */
+
+/* Getting rid of the default link styles here */
+/* .navbar li a {
+  
+  color: rgba(49, 49, 49, 0.589);
+  text-decoration: none;
+} */
+
+/* .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: rgb(194, 185, 185);}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+
+
+/* Styling the header, giving it a height, a background color, and some top padding
+.header {
+  height: 200px;
+  padding-top: 20px;
+  background: #cdcdcd;
+}
+
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+/* .header h1 {
+  padding: 60px;
+  margin: 0;
+  color: #000;
+  text-align: center;
+} */ */
+
+/* Giving the .post element margin on 3 sides */
+/* .post {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+} */
+
+/* #nav-select {
+  visibility: hidden;
+} */
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+/* @media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+} */
